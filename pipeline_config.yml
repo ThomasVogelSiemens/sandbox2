@@ -45,12 +45,11 @@ stages:
 #    nonErpDestinations:
 #      - 'myCustomDestination'
 
-productionDeployment:
-cfTargets:
-
+  productionDeployment:
+    cfTargets:
       - org: 'Siemens_AG_Information_Technology_InventoryValuation'
         space: 'Sandbox'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-        appName: 'SandboxApp'
-#		manifest: 'mta.yaml'
-		credentialsId: 'CF_USER'
+        appName: 'myAppName'
+#        manifest: 'manifest.yml'
+        credentialsId: 'CF_USER'
