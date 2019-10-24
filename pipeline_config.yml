@@ -45,9 +45,10 @@ stages:
 #    nonErpDestinations:
 #      - 'myCustomDestination'
 
-  productionDeployment:
-   cfTargets:
-     - org: 'Siemens_AG_Information_Technology_InventoryValuation'
+productionDeployment:
+cfTargets:
+
+      - org: 'Siemens_AG_Information_Technology_InventoryValuation'
         space: 'Sandbox'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
         appName: 'SandboxApp'
