@@ -52,5 +52,5 @@ cfTargets:
         space: 'Sandbox'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
         appName: 'SandboxApp'
-#		manifest: 'manifest.yml'
+#		manifest: 'mta.yaml'
 		credentialsId: 'CF_USER'
